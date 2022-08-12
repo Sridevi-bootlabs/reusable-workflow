@@ -43,7 +43,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{secrets.registry_username}}/${{inputs.image_name}}:${{env.final_tag}}
+          tags: ${{secrets.registry_username}}/sri-task:v1
 
 
   do-something-else:
